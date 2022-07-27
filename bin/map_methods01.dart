@@ -8,5 +8,5 @@ Map func(Map data, List lst) {
 }
 
 void main() {
-  print(func({'name': "Mustang", 'color': "silwer"}, ['price', 50000]));
+  print(func({'name': "Mustang", 'color': "yellow"}, ['price', 50000]));
 }
