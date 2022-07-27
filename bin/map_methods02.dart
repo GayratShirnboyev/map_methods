@@ -2,10 +2,11 @@
 Car details will be given to you in map view, change the car price for it
 */
 
-void main() {}
-
-Map func(Map data, int cost) {
-  //your code here
-
+Map func(Map data, List lst) {
+  data['price'] = 80000;
   return data;
+}
+
+void main() {
+  print(func({'name': "Mustang", 'color': "silwer"}, ['price', 50000]));
 }
