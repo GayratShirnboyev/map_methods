@@ -2,8 +2,8 @@
 Car details will be given to you in map view, change the car price for it
 */
 
-Map func(Map data, List cost) {
-  data[cost[0]] = cost[1];
+Map func(Map data, cost) {
+  data['price'] = cost;
   return data;
 }
 
