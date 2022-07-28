@@ -10,5 +10,7 @@ Map func(Map data) {
 }
 
 void main() {
-  print(func({'name': "John", "last_name": "Kerry"}));
+  print(func({
+    'name': "John",
+  }));
 }
