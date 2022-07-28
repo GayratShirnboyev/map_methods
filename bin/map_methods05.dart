@@ -5,12 +5,12 @@ add "@" to it.
 
 //your code here
 Map func(Map data) {
-  data.remove('surname');
-  data['last_name'] = 'Kerry';
+  data.remove('last_name');
+  data['surname'] = 'Kerry';
 
   return data;
 }
 
 void main() {
-  print(func({'name': "John", "surname": "Kerry"}));
+  print(func({'name': "John", "last_name": "Kerry"}));
 }
