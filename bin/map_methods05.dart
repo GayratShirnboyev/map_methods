@@ -1,13 +1,14 @@
 /*
-The map given to you has first and last name,
-the key in it is last name, 
-change it to surname
+There is a folder with login and password. If the password does not contain "@",
+add "@" to it.
 */
 
-void main() {}
-
+//your code here
 Map func(Map data) {
-  //your code here
-
+  data['last_name'] = 'Kerry';
   return data;
+}
+
+void main() {
+  print(func({'name': "John", "last_name": "Kerry"}));
 }
